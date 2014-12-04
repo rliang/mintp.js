@@ -1,7 +1,7 @@
 (function() {
   'use strict';
   var cache = {};
-  this.tht = function(sel, args, opt_sep) {
+  this.mintp = function(sel, args, opt_sep) {
     return (cache[sel] ? cache[sel] : cache[sel] =
         document.querySelector(sel).innerHTML.split(opt_sep || /[\{\}]{2}/))
       .map(function(exp, i) {

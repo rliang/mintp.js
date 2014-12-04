@@ -1,6 +1,6 @@
-# tht.js
+# mintp.js
 
-A terrible HTML template engine.
+A minimalistic template engine.
 
 ## Example Usage
 
