@@ -1,6 +1,6 @@
 # mintp.js
 
-A minimalistic template engine.
+A minimalist template engine.
 
 ## Example Usage
 
