@@ -11,19 +11,19 @@ A minimalist template engine.
 
 <script id="t2" type="text/html">
 <{{ tag }}>
-  {{ tht('#t1', {tag: 'p', content: tag}) }}
+  {{ mintp('#t1', {tag: 'p', content: tag}) }}
 </{{ tag }}>
 </script>
 
 <script id="t3" type="text/html">
 <{{ tag }}>
-  {{ t2.map(tht.bind(null, '#t2')).join('') }}
+  {{ t2.map(mintp.bind(null, '#t2')).join('') }}
 </{{ tag }}>
 </script>
 ```
 
 ```javascript
-document.body.innerHTML = tht('#t3', {
+document.body.innerHTML = mintp('#t3', {
   tag: 'button',
   t2: [{tag: 'h1'}, {tag: 'h2'}]
 });
