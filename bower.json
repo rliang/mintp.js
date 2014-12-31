@@ -1,4 +1,21 @@
 {
-  "name": "mintp.js",
-  "private": true
+  "name": "mintp",
+  "main": "mintp.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/rliang/mintp.js",
+  "authors": [
+    "Ricardo Liang <ricardoliang@gmail.com>"
+  ],
+  "description": "A minimalist template engine.",
+  "keywords": [
+    "template"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }

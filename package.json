@@ -1,0 +1,19 @@
+{
+  "name": "mintp",
+  "version": "0.1.0",
+  "description": "A minimalist template engine.",
+  "main": "mintp.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rliang/mintp.js"
+  },
+  "keywords": [
+    "template"
+  ],
+  "author": "Ricardo Liang <ricardoliang@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rliang/mintp.js/issues"
+  },
+  "homepage": "https://github.com/rliang/mintp.js"
+}
