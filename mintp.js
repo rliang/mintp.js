@@ -4,7 +4,7 @@
     args = args || {};
     return (function doit(text) {
       var did = false;
-      text = text.replace(opt_regex || /\{\{((.(?!\{\{))*?)\}\}/g, function(_, exp) {
+      text = text.replace(opt_regex || /\{\{(([\s\S](?!\{\{))*?)\}\}/g, function(_, exp) {
         did = true;
         return Function.apply(null, Object.keys(args).concat('return eval(this.x);'))
         .apply({x: 'try {' + exp + '} catch(e) {}'},
