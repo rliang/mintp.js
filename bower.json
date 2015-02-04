@@ -1,7 +1,7 @@
 {
   "name": "mintp",
   "main": "mintp.js",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "homepage": "https://github.com/rliang/mintp.js",
   "authors": [
     "Ricardo Liang <ricardoliang@gmail.com>"
