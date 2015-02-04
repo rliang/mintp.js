@@ -1,6 +1,7 @@
 (function() {
   'use strict';
   this.mintp = function(sel, args, opt_regex) {
+    args = args || {};
     return (function doit(text) {
       var did = false;
       text = text.replace(opt_regex || /\{\{((.(?!\{\{))*?)\}\}/g, function(_, exp) {
